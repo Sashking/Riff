@@ -3,7 +3,5 @@ module.exports = async (client) => {
 		`\n\n✅ Ready on ${client.guilds.cache.size} servers, for a total of ${client.users.cache.size} users`
 	);
 
-	client.user.setActivity('r!help', {
-		type: 'listening',
-	});
+	client.user.setActivity('r!help')
 };
